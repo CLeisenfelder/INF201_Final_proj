@@ -1,0 +1,134 @@
+.container{
+	 height: 100vh;
+	 width: 100%;
+	 background-image: url('images/background2.png');
+	 /* image from http://www.takanoweightlifting.com/ */
+	 background-position: center;
+	 background-size: cover;
+	 position: fixed;
+	 overflow:auto;
+ }
+ /* container holding background for website */
+.main_header {
+	background-color:lightblue;
+	position:absolute;
+	text-align:center;
+	left: 15%;
+	right: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
+	top: 3%;
+	font-family: Arial,	sans-serif;
+ }
+ /* header placed at top of every page as website title */
+ .navbar1 {
+	text-align:left;
+	background-color:lightblue;
+	position:absolute;
+	width:9%;
+	top:21%;
+	left:0;
+	padding-right:20px
+ }
+ /*navbar holding links to other pages in-site */
+ .video1 {
+	 float:right;
+	 margin-right:34%;
+	 margin-top:8%;
+ }
+ /* https://www.youtube.com/watch?v=Ovgai9YjkBA */
+ .text1 {
+	background-color:lightblue;
+	margin: 32% 10% 5%;
+	font-family: Arial,	sans-serif;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+ }
+ /* home page text box*/
+ .nav_div {
+	background-color:yellow;
+	height:15%;
+	width:80%;
+	margin:0 auto;
+	bottom:0%;
+/*bottom of screen nav bar with email and usaw link*/
+ }
+ .usaw_link {
+	margin:auto;
+	font-family: Arial,	sans-serif;
+	text-align:center;
+	border:3px dotted black;
+ }
+/*link to usaw 'find a club' site*/ 
+.email_link {
+	margin:auto;
+	font-family: Arial,	sans-serif;
+	text-align:center;
+	border:3px dotted black;
+}
+/*link to my email for inquiries*/	
+ .text2 {
+	background-color:lightblue;
+	font-family: Arial,	sans-serif;
+	width:80%;
+	padding:3%;
+	margin: 10% 9% 30%;
+ }
+ /*text box for main info pages*/
+ .table1 table, th, td{
+	 border:1px solid black;
+ }
+ table{
+	 width:80%;
+	 border-collapse:collapse;
+	 margin:auto;
+ }
+/*table styling*/
+ .img_left {
+	padding:1%;
+	float:left;
+ }
+.img_right {
+	padding:1%;
+	float:right;
+}
+.pic {
+	float:left;
+	padding:1%;
+	padding-left:7%;
+}
+/*image styling*/
+a:link {
+    color: blue;
+}
+/* unvisited link */
+a:visited {
+    color: green;
+}
+/* visited link */
+a:hover {
+    color: hotpink;
+}
+/* mouse over link */
+a:active {
+    color: red;
+}
+/* selected link */
+
+.pic_holder{
+	background-color:lightblue;
+	font-family: Arial,	sans-serif;
+	width:80%;
+	margin:0 auto;
+	margin-top:8%;
+	padding-top:1%;
+	padding-bottom:55%;
+}
+/*div holding photos*/
+.intrapage_links {
+	float:left;
+	margin-top:0;
+	margin-left:0;
+	position:relative;
+}
